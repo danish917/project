@@ -1,0 +1,820 @@
+nav{
+    width: 100%;
+    height: 75px;
+    /* background: #242121; */
+    color: rgb(188, 236, 228);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    padding: 10px 10px;
+    font-size: 1.45rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5;
+}
+.logo:hover{
+    color: rgb(233, 16, 161);
+}
+ul{
+    list-style: none;
+    float: left;
+    /* justify-content: space-between; */
+}
+nav ul li{
+    float: left;
+    /* justify-content: space-between; */
+}
+.item{
+    display: inline-block;
+color: rgb(9, 204, 26);
+
+text-decoration: none;
+height: 40px;
+line-height: 40px;
+padding: 15px 20px;
+transition: 0s;
+}
+.item:hover{
+    background-color: rgb(151, 151, 63);
+}
+.cse{
+    display: flex;
+    margin-top: 10px;
+
+}
+
+.leftimg{
+    height: 250px;
+    width: 399px;
+    margin: 30px 50px;
+    border: 1px solid black;
+    border-radius: 25px;
+}
+.para{
+padding: 10px 10px ;
+justify-content: center;
+margin-right: 70px;
+letter-spacing: 1px;
+font-family: system-ui;
+color: white;
+}
+.head{
+    color: rgb(3, 223, 58);
+     letter-spacing: 1px; 
+     text-transform: uppercase;
+     
+}
+.hack{
+    color: rgb(11, 214, 28);
+    justify-content: center;
+    letter-spacing: 1px;
+    padding: auto;
+    margin-left: 40%;
+    
+}
+.hack{
+    animation: glow 1s infinite alternate;
+    color:#07e93f ;
+}
+@keyframes glow{
+    from{
+        text-shadow: 0 0 20px #0de92a,0 0 30px #e100ff, 0 0 40px #15456d;
+    }
+    to{
+        text-shadow: 0 0 30px #0fcc2e,0 0 40px #008cff, 0 0 40px #e100ff;
+    }
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    column-gap: 50px;
+    margin-left: 340px;
+}
+.tittle img{
+height: 300px;
+width: 300px;
+border-radius: 10px;
+}
+.tittle{
+    margin: 10px 10px;
+    padding: auto;
+}
+
+.heada{
+    text-decoration: none;
+}
+.container .tittle button{
+    /* border: 1px solid black; */
+    padding: 10px;
+    height: 50px;
+    width: 150px;
+    margin: 10px;
+    color: rgb(5, 5, 5);
+    background-color: rgb(253, 253, 19);
+border-radius: 50px;
+margin-left: 50px;
+transition: 0.5s;
+cursor: pointer;
+position: relative;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.container .tittle button::after{
+content: '';
+position: absolute;
+height: 112%;
+width: 105%;
+border-radius: 50px;
+background-image: linear-gradient(to bottom right, #008cff,#e100ff); 
+z-index: -1;
+
+
+}
+.container .tittle button:hover{
+    z-index: 0;
+    box-shadow: 40px 0 100px #008cff, -40px 0 100px #e100ff;
+}
+
+.heading{
+   /* padding: auto; */
+   /* margin: auto; */
+   text-align: justify;
+   letter-spacing: 1px;
+   color: rgb(8, 223, 26);
+
+   cursor: pointer;
+}
+
+.vaa{
+    color: rgb(16, 214, 16);
+    justify-content: center;
+    letter-spacing: 1px;
+    padding: auto;
+    margin-left: 40%;
+}
+.vaapara{
+    letter-spacing: 2px;
+    padding: auto;
+    font-family: system-ui;
+    margin-top: 10px ;
+    margin-left: -66px;
+    margin-right: 20px;
+    color: white;
+    text-align: center;
+}
+
+.die{
+    height: 300px;
+    width: 300px;
+    border: 1px solid black;
+    margin: 10px 10px 10px 10px ;
+    background: radial-gradient(circle 280px at 0% 0%, #444444, #0c0d0d); 
+    border-radius: 10px;
+}
+.select{
+    display: flex;
+    justify-content: center;
+    /* margin: 10px 10px 10px 10px ; */
+    /* background-color: rgb(184, 96, 96); */
+    margin-top: 40px;
+}
+
+.ck{
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2px 2px ;
+    color: wheat;
+}
+.jayaram{
+    text-align: center;
+    letter-spacing: 1px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 2px 2px ;
+    color: wheat;
+}
+.ckcet{
+    text-align: center;
+    text-decoration: none;
+    color: wheat;
+}
+
+.hacker{
+    margin-top: 50px;
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.hacker{
+    animation: glow 1s infinite alternate;
+    color:#e100ff ;
+}
+@keyframes glow{
+    from{
+        text-shadow: 0 0 20px #0d86e9,0 0 30px #e100ff, 0 0 40px #15456d;
+    }
+    to{
+        text-shadow: 0 0 30px #e100ff,0 0 40px #008cff, 0 0 40px #e100ff;
+    }
+}
+
+.price{
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.fin{
+    background: #000;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    cursor: pointer;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.follow {
+    text-align: justify;
+    letter-spacing: 1px;
+
+}
+
+.instagram{
+    height: 55px;
+    padding: auto;
+    margin-right: 30px;
+}
+.vij{
+    padding: 10px 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5;
+    margin-left: 40px;
+}
+.vij:hover{
+    color: aqua;
+}
+.jk{
+    background: #000;
+    text-align: center;
+    letter-spacing: 1px;
+    color: white;
+    padding: 10px;
+    margin-top: -10px;
+}
+.backvideo{
+    position:fixed;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+width: auto;
+height: auto;
+
+
+}
+* ::-webkit-scrollbar{
+    display: none;
+}
+.finlog{
+    height: 100px;
+    margin-top: 50px;
+    margin-left: 20px;
+}
+/* for 1200px */
+@media only screen and (max-width: 1200px){
+.container{
+    margin-left: 180px;
+}
+
+}
+/* for 900px  */
+@media only screen and (max-width: 900px) {
+    .logo {
+        font-size: 24px;
+    }
+
+    .cse {
+        display: grid;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .leftcse, .rightcse {
+        width: 48%;
+    }
+
+    .container {
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 50px;
+    }
+
+    .tittle {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .ckcet {
+        font-size: 18px;
+    }
+
+    .ck {
+        font-size: 20px;
+    }
+    
+    .vaapara{
+        margin-left: 15px;
+        margin-right: 50px;
+        text-align: center
+    }
+
+   .tittle img{
+    height: 150px;
+    width: 250px;
+
+   }
+
+   .hack{
+    margin-left: 220px;
+   }
+   .vaa   {
+    margin-left: 10%;
+   }
+
+ .select{
+   display: flex ; 
+    margin-left: 15px;
+   }
+
+   .jayaram{
+    margin-top: -33px;
+   }
+   .hacker{
+    margin-left: 80px;
+   }
+
+   .hacker{
+    margin-right: 117px;
+   }
+
+   .logo{
+    size: 8px;
+    height: 55px;
+    width: 51px;
+    letter-spacing: 0px;
+   }
+   .vij{
+    padding: 10px 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5;
+    margin-left: 4px;
+    margin-top: 60px;
+   }
+   .cse{
+    display: block;
+    margin-left: 140px;
+   }
+   .para{
+    margin-left: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-right: -150px;
+   }
+
+   .head{
+    margin-left: 100px;
+    margin-right: -100px;
+   }
+   .leftimg{
+    height: 250px;
+    width: 400px;
+   }
+   .logo{
+
+   }
+   .follow{
+    height: 71px;
+    margin-top: -53px;
+    margin-left: 139px;
+   }
+   .fin{
+    display: block;
+   }
+   .finlog{
+    height: 71px;
+    margin-top: -53px;
+    margin-left: 139px;
+   }
+
+   .jk{
+
+   }
+
+   .hrr{
+    margin-top: 62px;
+   }
+}
+
+/* for 800px  */
+@media only screen and (max-width: 800px) {
+    .logo {
+        font-size: 24px;
+    }
+
+    .cse {
+        display: grid;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .leftcse, .rightcse {
+        width: 48%;
+    }
+
+    .container {
+        display: grid;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 50px;
+    }
+
+    .tittle {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .ckcet {
+        font-size: 18px;
+    }
+
+    .ck {
+        font-size: 20px;
+    }
+    
+    .vaapara{
+        margin-left: 15px;
+        margin-right: 50px;
+        text-align: center
+    }
+
+   .tittle img{
+    height: 150px;
+    width: 250px;
+
+   }
+
+   .hack{
+    margin-left: 220px;
+   }
+   .vaa   {
+    margin-left: 10%;
+   }
+
+ .select{
+   display: flex ; 
+    margin-left: 15px;
+   }
+
+   .jayaram{
+    margin-top: -33px;
+   }
+   .hacker{
+    margin-left: 80px;
+   }
+
+   .hacker{
+    margin-right: 117px;
+   }
+
+   .logo{
+    size: 8px;
+    height: 55px;
+    width: 51px;
+    letter-spacing: 0px;
+   }
+   .vij{
+    padding: 10px 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5;
+    margin-left: 4px;
+    margin-top: 60px;
+   }
+   .cse{
+    display: block;
+    margin-left: 140px;
+   }
+   .para{
+    margin-left: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-right: -150px;
+   }
+
+   .head{
+    margin-left: 100px;
+    margin-right: -100px;
+   }
+   .leftimg{
+    height: 250px;
+    width: 400px;
+   }
+   .logo{
+
+   }
+   .follow{
+    height: 71px;
+    margin-top: -53px;
+    margin-left: 139px;
+   }
+   .fin{
+    display: block;
+   }
+   .finlog{
+    height: 71px;
+    margin-top: -53px;
+    margin-left: 139px;
+   }
+
+   .jk{
+
+   }
+
+   .hrr{
+    margin-top: 62px;
+   }
+}
+/* for 600px */
+@media only screen and (max-width: 600px) {
+    .logo {
+        font-size: 24px;
+    }
+
+    .cse {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 100px;
+    }
+
+    .leftcse, .rightcse {
+        width: 48%;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 150px;
+    }
+
+    .tittle {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .ckcet {
+        font-size: 18px;
+    }
+
+    .ck {
+        font-size: 20px;
+    }
+    
+    .vaapara{
+        margin-left: 15px;
+        margin-right: 50px;
+        text-align: center
+    }
+
+   .tittle img{
+    height: 150px;
+    width: 250px;
+
+   }
+
+   .hack{
+    margin-left: 140px;
+   }
+   .vaa   {
+    margin-left: 25%;
+   }
+
+ .select{
+   display: block; 
+    margin-left: 20%;
+   }
+
+   .jayaram{
+    margin-top: -33px;
+   }
+   .hacker{
+    margin-left: 80px;
+   }
+
+   .hacker{
+    margin-right: 117px;
+   }
+
+   .logo{
+    size: 8px;
+    height: 55px;
+    width: 51px;
+    letter-spacing: 0px;
+   }
+   .vij{
+    padding: 10px 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5;
+    margin-left: 4px;
+    margin-top: 60px;
+   }
+   .cse{
+    display: block;
+   }
+   .para{
+    margin-left: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-right: -150px;
+   }
+
+   .head{
+    margin-left: 100px;
+    margin-right: -100px;
+   }
+   .leftimg{
+    height: 174px;
+    width: 266px;
+   }
+   .logo{
+
+   }
+   .follow{
+    height: 71px;
+    margin-top: -53px;
+    margin-left: 139px;
+   }
+   .fin{
+    display: block;
+   }
+   .finlog{
+    height: 71px;
+    margin-top: -53px;
+    margin-left: 139px;
+   }
+
+   .jk{
+
+   }
+
+   .hrr{
+    margin-top: 62px;
+   }
+}
+
+
+
+/* For screens wider than 600px (tablets and larger devices) */
+@media only screen and (max-width: 412px) {
+    .logo {
+        font-size: 24px;
+    }
+
+    .cse {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin-left: 10px;
+    }
+
+    .leftcse, .rightcse {
+        width: 48%;
+    }
+
+    .container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-left: 50px;
+    }
+
+    .tittle {
+        width: 48%;
+        margin-bottom: 20px;
+    }
+
+    .ckcet {
+        font-size: 18px;
+    }
+
+    .ck {
+        font-size: 20px;
+    }
+    
+    .vaapara{
+        margin-left: 15px;
+        margin-right: 50px;
+        text-align: center
+    }
+
+   .tittle img{
+    height: 150px;
+    width: 250px;
+
+   }
+
+   .hack{
+    margin-left: 29px;
+   }
+   .vaa   {
+    margin-left: 10%;
+   }
+
+ .select{
+   display: block; 
+    margin-left: 15px;
+   }
+
+   .jayaram{
+    margin-top: -33px;
+   }
+   .hacker{
+    margin-left: 80px;
+   }
+
+   .hacker{
+    margin-right: 117px;
+   }
+
+   .logo{
+    size: 8px;
+    height: 55px;
+    width: 51px;
+    letter-spacing: 0px;
+   }
+   .vij{
+    padding: 10px 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: 0.5;
+    margin-left: 4px;
+    margin-top: 60px;
+   }
+   .cse{
+    display: block;
+   }
+   .para{
+    margin-left: 18px;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-right: -150px;
+   }
+
+   .head{
+    margin-left: 100px;
+    margin-right: -100px;
+   }
+   .leftimg{
+    height: 174px;
+    width: 266px;
+   }
+   .logo{
+
+   }
+   .follow{
+    height: 71px;
+    margin-top: -53px;
+    margin-left: 139px;
+   }
+   .fin{
+    display: block;
+   }
+   .finlog{
+    height: 71px;
+    margin-top: -53px;
+    margin-left: 139px;
+   }
+
+   .jk{
+
+   }
+
+   .hrr{
+    margin-top: 62px;
+   }
+}
+
